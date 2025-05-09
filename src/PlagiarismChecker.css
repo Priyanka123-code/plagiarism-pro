@@ -1,0 +1,42 @@
+.container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+}
+
+.file-input {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 18px;
+  color: green;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
